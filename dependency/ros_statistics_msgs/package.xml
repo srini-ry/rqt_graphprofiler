@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_statistics_msgs</name>
+  <version>0.1.0</version>
+  <description>ROS Host and Node Statistics Messages</description>
+  <maintainer email="dan@osrfoundation.org">Dan Brooks</maintainer>
+  <license>Apache 2.0</license>
+  <!-- <url type="website">http://wiki.ros.org/ros_statistics_msgs</url> -->
+  <author email="dan@osrfoundation.org">Dan Brooks</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
+
